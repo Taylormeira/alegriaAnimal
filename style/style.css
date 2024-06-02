@@ -1,8 +1,8 @@
 :root {
     --color-text: dark;
     --color-description: black;
-    --color-gradient-one: #e8f833fe;
-    --color-gradient-two: #cbc829ac;
+    --color-gradient-one: #f0e515ee;
+   /* --color-gradient-two: #cbc829ac;*/
 }
 
 * {
@@ -36,7 +36,7 @@ body {
 }
 
 .linearGradient {
-    background: linear-gradient(5deg , var(--color-gradient-one), var(--color-gradient-two));
+    background: var(--color-gradient-one);
 }
 
 .profilePicture {
